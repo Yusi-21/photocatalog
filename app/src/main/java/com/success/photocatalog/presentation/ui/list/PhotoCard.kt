@@ -35,7 +35,6 @@ fun PhotoCard(
         shape = RoundedCornerShape(12.dp)
     ) {
         Column(modifier = Modifier.fillMaxWidth()) {
-            // Картинка — ТОЧНО КАК В ТВОЕМ РАБОЧЕМ КОДЕ
             val fullUrl = "$baseUrl${photo.url}"
             Log.d("PHOTO_CARD", "Loading image: $fullUrl")
 
